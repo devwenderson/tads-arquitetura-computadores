@@ -22,17 +22,26 @@ main:	addi $2, $0, 5		# n
 	mfhi $14
 	
 	add $4, $0, $14
-	addi $2, $0, 1
+	addi $4, $4, 48
+	andi $4, $4, 33
+	addi $2, $0, 11
 	syscall
 	
 	add $4, $0, $13
-	addi $2, $0, 1
+	addi $4, $4, 48
+	andi $4, $4, 33
+	addi $2, $0, 11
 	syscall
 	
 	add $4, $0, $12
-	addi $2, $0, 1
+	addi $4, $4, 48
+	addi $2, $0, 11
 	syscall
 	
 	add $4, $0, $11
-	addi $2, $0, 1
+	addi $4, $4, 48
+	addi $2, $0, 11
+	syscall
+
+	addi $2, $0, 10
 	syscall
