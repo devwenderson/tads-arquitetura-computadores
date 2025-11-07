@@ -21,6 +21,7 @@ for1:
 	
 	j for1
 end:
+
 	lui $10, 0x1001		# Posição 0
 	lw $8, 0($10)
 	
